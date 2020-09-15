@@ -61,11 +61,11 @@ select {
 /* Fin du CSS Reset */
 
 html {
-  --primary: #0488CA;
+  --primary: #ffb0b0;
 }
 body{
 margin: 5%;
-padding: 1%;
+padding-left: 10%;
 
 background-color: var(--primary)
 }
@@ -78,4 +78,9 @@ background-color: var(--primary)
 .container {
   display: container;
   grid-template-columns: 20%,60%,20%;
+}
+
+.path{
+height: 20%;
+
 }
