@@ -60,13 +60,15 @@ select {
 
 /* Fin du CSS Reset */
 
+
+/*font-family: 'Kufam', cursive;*/
+
 html {
   --primary: #ffb0b0;
 }
 body{
 margin: 5%;
 padding-left: 10%;
-
 background-color: var(--primary)
 }
 
