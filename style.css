@@ -60,5 +60,22 @@ select {
 
 /* Fin du CSS Reset */
 
+html {
+  --primary: #0488CA;
+}
+body{
+margin: 5%;
+padding: 1%;
 
+background-color: var(--primary)
+}
 
+.container > div {
+  background-color: aliceblue;
+  border: solid 1px #999
+}
+
+.container {
+  display: container;
+  grid-template-columns: 20%,60%,20%;
+}
