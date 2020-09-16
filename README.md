@@ -43,6 +43,6 @@ Vous serez évalué.e.s sur les critères suivants:
 * [Référence Variables CSS](https://developer.mozilla.org/fr/docs/Web/CSS/Using_CSS_custom_properties)
 * [Tuto Variables CSS](https://www.youtube.com/watch?v=IUPgwXZhQhg)
 * [Référence Grilles CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout)
-* [Tuto Grilles CSS](https://www.youtube.com/watch?v=2H602-zG62w)
+* [Tuto Grilles CSS]( https://www.youtube.com/watch?v=2H602-zG62w)
 * [Comment importer Google Fonts](https://developers.google.com/fonts/docs/getting_started)
 

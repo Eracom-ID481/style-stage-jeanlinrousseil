@@ -24,7 +24,6 @@ html {
   overflow-x: hidden;
 }
 
-
 /* Set core body defaults */
 body {
   min-height: 100vh;
@@ -60,29 +59,33 @@ select {
 
 /* Fin du CSS Reset */
 
-
 /*font-family: 'Kufam', cursive;*/
 
 html {
-  --primary: #ffb0b0;
+  --primary-light: #99f3bd;
+  --primary-dark: ;
+  --secondary-light: #f6f6f6;
+  --secondary-dark: ;
+  font-family: "Open Sans", sans-serif;
 }
-body{
-margin: 5%;
-padding-left: 10%;
-background-color: var(--primary)
-}
-
-.container > div {
-  background-color: aliceblue;
-  border: solid 1px #999
-}
-
-.container {
-  display: container;
-  grid-template-columns: 20%,60%,20%;
+body {
+  margin: 5%;
+  padding-left: 5%;
+  background-color: var(--primary-light);
+  text-decoration-color: var(--secondary-light);
 }
 
-.path{
-height: 20%;
+header .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  font-size: 5rem;
+}
 
+span svg {
+  width: 0.75rem;
+}
+
+p {
+  padding: 1rem;
 }
