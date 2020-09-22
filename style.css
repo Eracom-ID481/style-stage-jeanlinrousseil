@@ -62,12 +62,13 @@ select {
 /*font-family: 'Kufam', cursive;*/
 
 html {
-  --primary-light: #99f3bd;
-  --primary-dark: ; #100007;
+  --primary-light: #B8E1FF;
+  --primary-dark: ; #090809;
   --secondary-light: #f6f6f6;
   --secondary-dark: #8FA6CB;
  font-family: "Open Sans", sans-serif;
 }
+
 body {
   margin: 5%;
   padding-left: 5%;
@@ -80,24 +81,13 @@ body {
   overflow-x: hidden;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
 
 header .container {
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
   font-size: 5rem;
+  text-decoration: none;
 }
 
 nav ul {
@@ -112,7 +102,7 @@ nav ul {
 nav ul a {
   display: inline-grid;
   padding: 0.5rem;
-  color: var(--color-secondary);
+  color: var(--secondary-dark);
   font-size: 2rem;
   text-decoration: none;
 }
